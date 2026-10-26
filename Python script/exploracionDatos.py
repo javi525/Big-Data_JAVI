@@ -1,7 +1,7 @@
 # ============================================================
 # 📊 SCRIPT MAESTRO AIRBNB ESPAÑA - VERSIÓN TOTAL Y DEFINITIVA
 # ============================================================
-
+COMENTARIO DE PRUEBA
 import numpy as np
 import pandas as pd
 
