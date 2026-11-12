@@ -1,0 +1,6 @@
+import pandas as pd
+
+#cargamos el dataset procesado y limpio
+df = pd.read_csv("airbnb_espana_clean.csv", low_memory=False)
+
+print(df)
