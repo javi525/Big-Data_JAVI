@@ -1,7 +1,7 @@
 # ============================================================
 # 📊 SCRIPT MAESTRO AIRBNB ESPAÑA - VERSIÓN TOTAL Y DEFINITIVA
 # ============================================================
-COMENTARIO DE PRUEBA
+
 import numpy as np
 import pandas as pd
 
@@ -10,7 +10,9 @@ pd.set_option("display.width", 1000)
 pd.set_option("display.colheader_justify", "left")
 
 print("🚀 Cargando el dataset limpio 'airbnb_espana_clean.csv'...")
-df = pd.read_csv("airbnb_espana_clean.csv", low_memory=False)
+#df = pd.read_csv("airbnb_espana_clean.csv", low_memory=False)
+url = "https://github.com/javi525/Big-Data_JAVI/blob/main/airbnb_espana_clean.csv" 
+df = pd.read_csv(url)
 
 # Normalización de tipos numéricos
 df["precio_eur"] = pd.to_numeric(df["precio_eur"], errors="coerce")
